@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button_Aside } from '../Components/admin/HeaderAdmin/Button_Aside'
-import { NavHeader } from '../Components/admin/HeaderAdmin/NavHeader'
-import { ListaDoctoresCompleta } from '../Components/Doctor/ListaDoctoresCompleta'
-import { FooterAdministrador } from '../Components/admin/FooterAdministrador'
+import { Button_Aside } from '../../admin/HeaderAdmin/Button_Aside'
+import { NavHeader } from '../../admin/HeaderAdmin/NavHeader'
+import { ListaDoctoresCompleta } from '../../Doctor/ListaDoctoresCompleta'
+import { FooterAdministrador } from '../../admin/FooterAdministrador'
 
 const AppListaDoctoresCompleta = () => {
     return (
