@@ -2,16 +2,16 @@
 
 import '../public/styles/pantalla_principal.css'
 import '../public/styles/estilo_tablas.css'
+import Appcrear_horario_doctor from './Components/Apps/fechas/Appcrear_horario_doctor'
+import Appeditar_horario_doctor from './Components/Apps/fechas/Appeditar_horario_doctor'
+import AppLista_horario_doctor from './Components/Apps/fechas/AppLista_horario_doctor'
 
-
-import AppListaEspecialidad from './Components/Apps/especialidades/AppListaEspecialidad'
-import AppEditarEspecialidad from './Components/Apps/especialidades/AppEditarEspecialidad'
 
 function App() {
 
   return (
     <>
-      <AppEditarEspecialidad />
+      <Appcrear_horario_doctor />
     </>
   )
 }
