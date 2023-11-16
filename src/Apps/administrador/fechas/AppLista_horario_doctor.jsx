@@ -1,7 +1,7 @@
-import { FooterAdministrador } from "../../admin/FooterAdministrador"
-import { Button_Aside } from "../../admin/HeaderAdmin/Button_Aside"
-import { NavHeader } from "../../admin/HeaderAdmin/NavHeader"
-import { Lista_horario_doctor } from "../../fechas/lista_horario_doctor"
+import { FooterAdministrador } from "../../../partials/admin/FooterAdministrador"
+import { Button_Aside } from "../../../partials/admin/HeaderAdmin/Button_Aside"
+import { NavHeader } from "../../../partials/admin/HeaderAdmin/NavHeader"
+import { Lista_horario_doctor } from "../../../Components/administrador/fechas/lista_horario_doctor"
 
 const AppLista_horario_doctor = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button_Aside } from '../../admin/HeaderAdmin/Button_Aside'
-import { NavHeader } from '../../admin/HeaderAdmin/NavHeader'
-import { EditarEspecialidad } from '../../especialidad/EditarEspecialidad'
-import { FooterAdministrador } from '../../admin/FooterAdministrador'
+import { Button_Aside } from '../../../partials/admin/HeaderAdmin/Button_Aside'
+import { NavHeader } from '../../../partials/admin/HeaderAdmin/NavHeader'
+import { EditarEspecialidad } from '../../../Components/administrador/especialidad/EditarEspecialidad'
+import { FooterAdministrador } from '../../../partials/admin/FooterAdministrador'
 
 const AppEditarEspecialidad = () => {
     return (
