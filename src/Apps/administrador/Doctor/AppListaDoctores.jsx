@@ -1,10 +1,7 @@
-import React from 'react'
-import { Button_Aside } from '../../admin/HeaderAdmin/Button_Aside'
-import { NavHeader } from '../../admin/HeaderAdmin/NavHeader'
-
-import { FooterAdministrador } from '../../admin/FooterAdministrador'
-import { ListaDoctores } from '../../Doctor/ListaDoctores'
-
+import { Button_Aside } from "../../../partials/admin/HeaderAdmin/Button_Aside"
+import { NavHeader } from "../../../partials/admin/HeaderAdmin/NavHeader"
+import { FooterAdministrador } from "../../../partials/admin/FooterAdministrador"
+import { ListaDoctores } from "../../../Components/administrador/doctor/ListaDoctores"
 const AppListaDoctores = () => {
     return (
         <>

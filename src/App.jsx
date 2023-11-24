@@ -2,9 +2,10 @@
 
 import '../public/styles/pantalla_principal.css'
 import '../public/styles/estilo_tablas.css'
-import { HeaderPaciente } from './partials/HeaderPaciente'
-import AppAtenderPaciente from './Apps/doctor/AppAtenderPaciente'
 import AppCrearDoctor from './Apps/administrador/Doctor/AppCrearDoctor'
+import AppEditarDoctor from './Apps/administrador/Doctor/AppEditarDoctor'
+import AppListaDoctores from './Apps/administrador/Doctor/AppListaDoctores'
+import AppListaDoctoresCompleta from './Apps/administrador/Doctor/AppListaDoctoresCompleta'
 
 
 
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <>
-      <AppCrearDoctor />
+      <AppListaDoctoresCompleta />
     </>
   )
 }

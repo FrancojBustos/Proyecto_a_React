@@ -1,7 +1,7 @@
-import { Button_Aside } from "../Components/admin/HeaderAdmin/Button_Aside"
-import { NavHeader } from "../Components/admin/HeaderAdmin/NavHeader"
-import { CrearDoctor } from "../Components/Doctor/CrearDoctor"
-import { FooterAdministrador } from "../Components/admin/FooterAdministrador"
+import { Button_Aside } from '../../../partials/admin/HeaderAdmin/Button_Aside'
+import { FooterAdministrador } from '../../../partials/admin/FooterAdministrador'
+import { NavHeader } from '../../../partials/admin/HeaderAdmin/NavHeader'
+import { CrearDoctor } from '../../../Components/administrador/doctor/CrearDoctor'
 
 const AppCrearDoctor = () => {
     return (

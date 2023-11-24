@@ -1,7 +1,7 @@
-import { FooterAdministrador } from "../../admin/FooterAdministrador"
-import { Button_Aside } from "../../admin/HeaderAdmin/Button_Aside"
-import { NavHeader } from "../../admin/HeaderAdmin/NavHeader"
-import { EditarDoctor } from "./EditarDoctor"
+import { NavHeader } from "../../../partials/admin/HeaderAdmin/NavHeader"
+import { EditarDoctor } from "../../../Components/administrador/doctor/EditarDoctor"
+import { FooterAdministrador } from "../../../partials/admin/FooterAdministrador"
+import { Button_Aside } from "../../../partials/admin/HeaderAdmin/Button_Aside"
 
 const AppEditarDoctor = () => {
     return (
