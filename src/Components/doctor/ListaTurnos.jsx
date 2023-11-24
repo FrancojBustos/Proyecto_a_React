@@ -1,6 +1,6 @@
 {/* <script src="/js/pantalla_principal.js"></script>
             <script src="/js/doctor/lista_turnos.js"></script>
-            <script src="/js/alerta.js"></script> */}
+            <script src="/js/alerta.js"></script> as*/}
 
 export const ListaTurnos = () => {
     return (
